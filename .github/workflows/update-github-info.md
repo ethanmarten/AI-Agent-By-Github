@@ -17,6 +17,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -28,11 +29,13 @@ safe-outputs:
 
 Read `notes/mona-notes.md` and `site/content/github-info.md` before making any changes.
 
-Use web-fetch to review both the [GitHub Blog](https://github.blog/latest/) and the
-[GitHub Changelog](https://github.blog/changelog/). Identify current, relevant
-updates that help developers learn GitHub faster, keeping summaries short and
-practical. Update only `site/content/github-info.md`, and mention the source for
-each update from the GitHub Blog or GitHub Changelog.
+Use web-fetch to review the [GitHub Blog](https://github.blog/latest/), the
+[GitHub Changelog](https://github.blog/changelog/), and [Awesome Copilot
+workflows](https://awesome-copilot.github.com/workflows/). Identify current,
+relevant updates that help developers learn GitHub faster, keeping summaries
+short and practical. Update only `site/content/github-info.md`, and mention the
+source for each update from the GitHub Blog, GitHub Changelog, or Awesome
+Copilot workflows.
 
 Do not commit changes directly to the `main` branch. When the content needs an
 update, use the `create-pull-request` safe output to open a draft pull request
